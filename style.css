@@ -1,0 +1,125 @@
+.container{
+    background: url('./image1.jpg') no-repeat center center/cover;
+    /* width: 600px; */
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    color: #fff;  
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px; 
+    font-size: 25px;
+}
+
+.navbar b{
+    font-weight: bold;
+    font-size: 30px;
+}
+.navhead{
+    padding-top: 10px;
+    width: 140px;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-left: 420px;
+}
+
+.nav-item{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.nav-btn{
+    cursor: pointer;
+    padding: 15px;
+   border-radius: 25px;
+    background-color:#fb2056;
+    border: 1px solid #fb2056;
+    color: #fff;
+    width: 170px;
+}
+
+.nav-btn:hover{
+    background-color: #f20f47;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.text{
+    padding: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.underline{
+   padding-left: 20px;
+   padding-right: 20px;
+    border-bottom:2px solid  #fb2056;
+}
+
+.text1{
+    padding: 20px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sec-btn{
+    cursor: pointer;
+    padding: 15px;
+   border-radius: 25px;
+    background-color:#fb2056;
+    border: 1px solid #fb2056;
+    color: #fff;
+    width: 170px;
+}
+
+.sec-btn:hover{
+    background-color: #f20f47;
+}
+
+.sec-btn1{
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 1182px;
+    margin-bottom: 20px;
+     background-color:#fff;
+     border: 1px solid #fff;
+     color: #333;
+     width: 150px;
+     border-top-left-radius: 2px;
+     border-bottom-left-radius: 2px;
+}
+
+.sec-btn1 i{
+    padding-right: 10px;
+    font-size: 15px;
+}
+.sec-btn1 span{
+    
+    font-size: 15px;
+}
+
+.sec-btn1:hover{
+    background-color: rgba(22, 96, 214, 1);
+    border: 1px solid rgba(22, 96, 214, 1);
+    color: #fff;
+}
+
